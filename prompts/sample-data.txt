@@ -1,0 +1,19 @@
+Use this as Turn 1 if Load sample is thin. Paste the block below into the arena chat on the SAME InterviewGap project. Do not start a new build.
+
+Wire Load sample match to this exact text. Analyze must use only these facts. Do not invent extra jobs, companies, or years.
+
+RESUME
+Name: Kavya Iyer. Bengaluru. Email: kavya.iyer@email.com. Phone: +91 90000 12345.
+Target: SDE-1 / Full-stack.
+Education: B.E. Computer Science, RV College of Engineering, 2021-2025, CGPA 8.4.
+Skills: JavaScript, TypeScript, React, Node.js, Express, PostgreSQL, REST APIs, Git, basic AWS (S3, EC2). No Kubernetes. No FAANG internship.
+Projects: (1) HostelFix - React + Express hostel ticket app, JWT, 120+ tickets in college pilot, Postgres. (2) Markit - Chrome extension that highlights LMS deadlines, 40 weekly users in her class.
+Internship: 8 weeks at a Bengaluru edtech startup, Jun-Jul 2024. Fixed 11 UI bugs, wrote 6 Jest tests, did not own a production service.
+Other: Teaching assistant for first-year programming lab. Languages: English, Kannada, Hindi.
+
+JOB DESCRIPTION
+Company: Northbeam Payments, Bengaluru. Role: Software Engineer I, Merchant Dashboard.
+Must-have: 1+ year building production web apps or a strong internship; React and TypeScript; REST API integration; writing tests; owning a small feature from spec to rollout; reading production logs.
+Nice-to-have: payments or fintech; Postgres; AWS; design systems; mentoring.
+Responsibilities: ship dashboard widgets for settlement status; pair on code review; on-call shadow once a month.
+They will ask about a time you owned a feature, how you test, and how you debug a failing API.

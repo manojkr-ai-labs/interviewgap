@@ -1,0 +1,19 @@
+Lane: personal productivity.
+
+Build InterviewGap, a dark zinc SaaS single-page app. Tagline: See the gap between your resume and this job, then close it in seven days. Not a career marketplace. One workflow: paste one resume and one JD, then fit score, gap matrix, 7-day plan, and mock interview. Keep the name InterviewGap on every screen.
+
+Users: Indian students and working professionals. Clear Indian English. IST dates. Amber accent. Left nav on desktop, bottom tabs on phone. Save state in localStorage. Working prototype, not a mock.
+
+Eight screens:
+1) Home: Resume and JD boxes, Analyze, Load sample, Clear. Analyze needs 80+ characters in each box.
+2) Fit score 0-100 with Strong / Stretch / Weak plus skills, experience, domain, keyword subscores.
+3) Gap matrix: Must-have vs Nice-to-have. Have / Partial / Missing plus a resume quote or "not on this resume". Never invent jobs.
+4) 7-day plan from today. Each day one 60-90 min task and one 20 min backup, checkboxes, no fake course links.
+5) Mock interview: 10 questions (4 tech, 3 behavioral, 2 project, 1 why-this-role). Score 1-5, spoken model answer, total out of 50.
+6) Review with weakest 3 highlighted and Retry weakest.
+7) Export Markdown named InterviewGap-role.md plus Copy all.
+8) History: open, duplicate, delete, empty state.
+
+Load sample: Kavya Iyer, RVCE 2025, React and Node, 8-week Bengaluru edtech intern, HostelFix and Markit projects, no payments experience. JD: Northbeam Payments, Software Engineer I, React, TypeScript, tests. Mark payments and on-call as Missing.
+
+Footer: InterviewGap, personal productivity. No login wall. Ship all eight screens now.
