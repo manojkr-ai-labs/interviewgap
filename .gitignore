@@ -1,3 +1,8 @@
 .DS_Store
 Thumbs.db
 desktop.ini
+arena-files.json
+Makefile.arena
+app/node_modules
+app/dist
+app/.env

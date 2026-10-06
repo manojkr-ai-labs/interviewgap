@@ -4,9 +4,11 @@ Paste one resume and one job description. Get an evidence-linked fit score, a 7-
 
 Built for the [HackerEarth VibeCode Arena: AI Innovation Arena](https://vibecodearena.ai/ai-innovation-arena) (19 Sep–5 Oct 2026) by **Manoj Kumar Sah**.
 
-**Public build:** [vibecodearena.ai/share/b71810a4-7864-469b-952e-d1a168231c57](https://vibecodearena.ai/share/b71810a4-7864-469b-952e-d1a168231c57)
+**Demo for hiring review:** [manojkr-ai-labs.github.io/interviewgap](https://manojkr-ai-labs.github.io/interviewgap/)
 
-Recorded on the published project: Top Score **46.3**, prompt eval **94.0**. Arena project: [duel/d3e933bf-4afd-4b4b-8879-99de3b9eb5ed](https://vibecodearena.ai/duel/d3e933bf-4afd-4b4b-8879-99de3b9eb5ed).
+Open that link, click **Load sample**, then **Analyse**. No login. The arena Preview tab is blank because the contest sandbox is offline. This page is the same app, hosted so a reviewer can use it.
+
+Arena record: score **49.0**, prompt eval **97.96**. Project: [vibecodearena.ai/duel/d3e938f5-4afd-4b4b-8879-99de3b9eb5ed](https://vibecodearena.ai/duel/d3e938f5-4afd-4b4b-8879-99de3b9eb5ed).
 
 ## What it does
 
@@ -32,10 +34,11 @@ The sample match is specific on purpose: Kavya Iyer (RVCE 2025, React/Node, an 8
 
 ## What is in this repo
 
-The running UI was built and refined inside the arena (listed models only, 50 turns on one build). This repository is the product lock, the sample candidate, and the refinement record.
+The running UI was built and refined inside the arena (listed models only, 50 turns on one build). The app in [app/](app/) is that frontend. It scores in the browser. It does not call the arena server.
 
 | Path | Contents |
 | --- | --- |
+| [app/](app/) | The working app. Static site, no login, no server. |
 | [prompts/first-prompt.txt](prompts/first-prompt.txt) | The build prompt: eight screens, constraints, sample outcome. |
 | [prompts/sample-data.txt](prompts/sample-data.txt) | The only facts Analyze is allowed to use for the demo match. |
 | [turns/50-turn-checklist.md](turns/50-turn-checklist.md) | The 50-turn refinement log: empty states, mobile, mock quality, accessibility. |
@@ -48,7 +51,7 @@ Participation certificate (downloaded after the arena closed): [hackthon-certifi
 
 ## Resume line
 
-InterviewGap — VibeCode Arena, HackerEarth (Oct 2026). Single-page tool that scores one resume against one job description, lists evidence-linked skill gaps, and generates a 7-day prep plan plus a 10-question mock interview. [Live build](https://vibecodearena.ai/share/b71810a4-7864-469b-952e-d1a168231c57).
+InterviewGap — VibeCode Arena, HackerEarth (Oct 2026). Single-page tool that scores one resume against one job description, lists evidence-linked skill gaps, and generates a 7-day prep plan plus a 10-question mock interview. [Live demo](https://manojkr-ai-labs.github.io/interviewgap/).
 
 ## Stack and constraints
 
